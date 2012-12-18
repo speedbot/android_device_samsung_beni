@@ -34,6 +34,10 @@ endif
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
 
+
+## Device specific overlay
+DEVICE_PACKAGE_OVERLAYS := device/samsung/beni/overlay
+
 ## Included Packages
 PRODUCT_PACKAGES += \
     make_ext4fs \
