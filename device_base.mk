@@ -75,7 +75,8 @@ PRODUCT_COPY_FILES += \
     device/samsung/beni/prebuilt/bin/mount:system/bin/mount \
     device/samsung/beni/prebuilt/bin/run_drm:system/bin/run_drm \
     device/samsung/beni/prebuilt/bin/run_usb:system/bin/run_usb \
-    device/samsung/beni/prebuilt/bin/su:system/bin/su
+    device/samsung/beni/prebuilt/bin/su:system/bin/su \
+device/samsung/beni/prebuilt/copybit.msm7x27.so:system/lib \
 
 ## Run DRM and USB mass storage
 PRODUCT_COPY_FILES += \
@@ -161,7 +162,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/beni/prebuilt/libmmipl.so:system/lib/libmmipl.so \
     device/samsung/beni/prebuilt/libmmjpeg.so:system/lib/libmmjpeg.so \
     device/samsung/beni/prebuilt/libmm-omxcore.so:system/lib/libmm-omxcore.so \
-    device/samsung/beni/prebuilt/liboemcamera.so:system/lib/liboemcamera.so
+    device/samsung/beni/prebuilt/liboemcamera.so:system/lib/liboemcamera.so \
 
 ## keymap
 PRODUCT_COPY_FILES += \
