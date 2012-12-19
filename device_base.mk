@@ -248,7 +248,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 $(call inherit-product-if-exists, vendor/samsung/beni/beni-vendor.mk)
 # LDPI assets
 PRODUCT_LOCALES += en
-PRODUCT_AAPT_CONFIG := normal ldpi mdpi
+PRODUCT_AAPT_CONFIG := normal ldpi
 PRODUCT_AAPT_PREF_CONFIG := ldpi
 $(call inherit-product, build/target/product/full_base.mk)
 
