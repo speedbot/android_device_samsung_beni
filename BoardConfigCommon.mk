@@ -33,7 +33,7 @@ BOARD_USE_FROYO_LIBCAMERA := true
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 
-TARGET_PREBUILT_RECOVERY_KERNEL := device/samsung/beni/recovery_kernel
+
 TARGET_PREBUILT_KERNEL := device/samsung/beni/kernel
 TARGET_RECOVERY_INITRC := device/samsung/beni/recovery.rc
 TARGET_BOARD_PLATFORM := msm7x27
