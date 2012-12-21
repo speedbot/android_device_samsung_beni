@@ -4,7 +4,7 @@ android_device_samsung_beni_cm9
 
 status
 booting at ldpi 
-will update soon
+will update (working/non working) soon
 
 credits
 maclaw
