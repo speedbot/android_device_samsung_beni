@@ -4,7 +4,7 @@
 
 # Graphics
 ro.opengles.version=131072
-ro.sf.lcd_density=160
+ro.sf.lcd_density=120
 media.stagefright.enable-player=true
 windowsmgr.max_events_per_sec=150
 video.accelerate.hw=1
@@ -46,7 +46,7 @@ ro.media.enc.vid.fps.max = 15
 ro.workaround.noautofocus=1
 
 DEVICE_PROVISIONED=1
-qemu.sf.lcd_density=160
+qemu.sf.lcd_density=120
 
 # Wifi interface
 wifi.interface=wlan0
