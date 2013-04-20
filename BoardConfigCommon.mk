@@ -25,6 +25,7 @@ TARGET_NO_RADIOIMAGE := true
 BOARD_KERNEL_BASE := 0x13600000
 BOARD_KERNEL_PAGESIZE := 4096
 TARGET_KERNEL_SOURCE := kernel/samsung/msm7x27
+TARGET_PREBUILT_KERNEL := device/samsung/beni/prebuilt/kernel
 
 ## Platform
 TARGET_BOARD_PLATFORM := msm7x27
