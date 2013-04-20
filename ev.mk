@@ -14,7 +14,7 @@ $(call inherit-product, device/samsung/beni/full_beni.mk)
 $(call inherit-product, vendor/qcom/opensource/omx/mm-core/Android.mk)
 $(call inherit-product, vendor/qcom/opensource/omx/mm-video/Android.mk)
 
-PRODUCT_NAME := cm_beni
+PRODUCT_NAME := ev_beni
 
 # Release name and versioning
 PRODUCT_RELEASE_NAME := Galaxybeni
